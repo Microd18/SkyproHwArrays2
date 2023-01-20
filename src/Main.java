@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Задание 1");
 
         int[] arr = generateRandomArray();
-        int result = -1;
+        int result = 0;
 
         for (int a : arr) {
             result += a;
@@ -54,7 +54,7 @@ public class Main {
         System.out.println("Задание 3");
 
         int[] arr = generateRandomArray();
-        double average = -1;
+        double average = 0;
 
         for (int a : arr) {
             average += a;
